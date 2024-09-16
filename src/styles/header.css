@@ -1,0 +1,81 @@
+.header {
+  background-image: url(../assets/bacg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.images-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.imgs {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.span {
+  height: 40px;
+  width: 1px;
+  background-color: #fff;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  margin-top: 60px;
+}
+
+.header-content h3 {
+  color: #fff;
+  font-size: 21px;
+}
+
+.header-content h1 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.header-content span {
+  color: #fff;
+}
+
+.spn {
+  margin-left: 20px;
+}
+
+.span-btn {
+  background-color: #fff;
+  height: 25px;
+  width: 1px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-content button {
+  color: #de5150;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 16px 32px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.header-content button:hover {
+  background-color: rgb(209, 239, 229);
+}

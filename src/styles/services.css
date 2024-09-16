@@ -1,0 +1,32 @@
+.services {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.services-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-span {
+  background-color: gray;
+  display: inline;
+  display: flex;
+  height: 1px;
+}
+
+.services-text::before {
+  content: "";
+  background-image: url(../assets/strel.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px;
+  padding: 20px;
+}
+
+.services-right h1 {
+  width: 300px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}

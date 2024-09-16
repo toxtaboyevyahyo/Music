@@ -1,0 +1,29 @@
+.main {
+  margin-top: 100px;
+}
+
+.main-list {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main-content h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.main-imgs {
+  position: relative;
+  z-index: 1;
+}
+
+.main-img2 {
+  position: relative;
+  right: 50%;
+}
+
+.main-img1 {
+  position: relative;
+  left: 50%;
+}

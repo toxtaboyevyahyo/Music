@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 100px;
+  background-color: #e86564;
+  padding: 35px 80px;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-spans span {
+  margin-left: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer-spans span:hover {
+  color: #efb7b7;
+}
+
+.footer-img_flex {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-img_flex img {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
